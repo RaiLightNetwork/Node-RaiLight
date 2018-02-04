@@ -15,7 +15,7 @@ Linux: tutorial how to install Node.js using NVM (recommended) [Install Node.js 
 
 ## 1. Cloning Repository 
 ```
-git clone https://github.com/RaiLight/Node-RaiLight.git Node-RaiLight
+git clone https://github.com/RaiLightNetwork/Node-RaiLight.git Node-RaiLight
 ```
 ## 2. Installing modules
 `cd Node-RaiLight` to enter in the downloaded folder of the repository   
