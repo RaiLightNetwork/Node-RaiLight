@@ -1,0 +1,32 @@
+<head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="browser-bundle.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="browser.css">
+
+</head>
+
+<body>
+
+    <h1>Testing Browser Node-RaiLight</h1>
+
+    Peers
+    <div id="map"></div>
+
+    <script>
+        async function initMap() {
+
+            RaiLight.Applications.NetworkMap.createMap('map');
+            await RaiLight.Applications.NetworkMap.initialize(map);
+            RaiLight.Applications.NetworkMap.initializePolylines(map);
+
+            //RaiLight.Applications.NetworkMap.createTestConnections(map);
+        }
+    </script>
+
+    <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3RtAgqpzLTzj5zKs3z-83RUDZYmvlsCc&callback=initMap"> </script>
+
+
+</body>
