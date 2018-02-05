@@ -67,11 +67,3 @@ npm run test_browser
 ```
 
 open web page `dist_bundle/browser/browser.html`
-
-We use browserify
-
-```
-npm install -g browerfiy
-browserify dist/index.js > dist_bundle/bundle.js
-npm install bufferutil utf-8-validate
-``` 
