@@ -8,7 +8,8 @@ Settings => Languages & Frameworks => JavaScript language version and choose **E
 
 # Notice
 
-Work in progress at the moment. Windows builds have several dependecies issues and do not work.
+Work in progress at the moment. Windows builds have several dependecies issues and do not work. Also we have not yet tested the build cross environment.
+Please open a issue if you find a problem. Thanks.
 
 # Installing
 
