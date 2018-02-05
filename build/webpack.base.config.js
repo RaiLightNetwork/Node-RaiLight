@@ -6,6 +6,8 @@ const isProd = process.env.NODE_ENV === 'production'
 //const isAnalyze = process.argv.includes('--analyze') || process.argv.includes('--analyse');
 const isAnalyze = false;
 
+// https://github.com/Marak/colors.js/issues/137 HOTFIX for exprContextCritical
+
 module.exports = {
 
     //define entry point
@@ -30,7 +32,7 @@ module.exports = {
     },
     module: {
         noParse: /es6-promise\.js$/, // avoid webpack shimming process
-
+        exprContextCritical: false,
         rules: [
 
         ],
